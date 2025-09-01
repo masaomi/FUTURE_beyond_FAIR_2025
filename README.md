@@ -93,4 +93,3 @@ FUTURE reframes open genomics infrastructure as a living, auditable system: FAIR
 
 \[12] Miller, M. S., Shapiro, J., & Tribble, E. (2003). Capability Myths Demolished. EROS and Capabilities (HP Labs / Johns Hopkins APL technical report).
 
--
