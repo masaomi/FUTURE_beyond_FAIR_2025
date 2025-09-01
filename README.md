@@ -70,16 +70,27 @@ FUTURE reframes open genomics infrastructure as a living, auditable system: FAIR
 ## References
 
 \[1] Wilkinson, M. D., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, 3, 160018. [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+
 \[2] Merkel, D. (2014). Docker: Lightweight Linux containers for consistent development and deployment. *Linux Journal*, 2014(239).
+
 \[3] Di Tommaso, P., et al. (2017). Nextflow enables reproducible computational workflows. *Nature Biotechnology*, 35(4), 316–319. [https://doi.org/10.1038/nbt.3820](https://doi.org/10.1038/nbt.3820)
+
 \[4] Köster, J., & Rahmann, S. (2012). Snakemake—A scalable bioinformatics workflow engine. *Bioinformatics*, 28(19), 2520–2522. [https://doi.org/10.1093/bioinformatics/bts480](https://doi.org/10.1093/bioinformatics/bts480)
+
 \[5] Amstutz, P., et al. (2016). Common Workflow Language, v1.0. *arXiv preprint* arXiv:1608.09145.
+
 \[6] Moreau, L., et al. (2013). PROV-DM: The PROV Data Model. W3C Recommendation.
+
 \[7] Lebo, T., Sahoo, S., & McGuinness, D. (2013). PROV-O: The PROV Ontology. W3C Recommendation.
+
 \[8] DataCite Metadata Working Group. (2021). DataCite Metadata Schema Documentation for the Publication and Citation of Research Data, Version 4.4.
+
 \[9] Haak, L. L., et al. (2012). ORCID: A system to uniquely identify researchers. *Learned Publishing*, 25(4), 259–264. [https://doi.org/10.1087/20120404](https://doi.org/10.1087/20120404)
+
 \[10] Brand, A., Allen, L., Altman, M., et al. (2015). Beyond authorship: attribution, contribution, and accountability in science. *Learned Publishing*, 28(2), 151–155. [https://doi.org/10.1087/20150211](https://doi.org/10.1087/20150211)
+
 \[11] Buterin, V., Weyl, E. G., & Ohlhaver, P. (2022). Decentralized Society: Finding Web3’s Soul. *SSRN Working Paper* 4105763.
+
 \[12] Miller, M. S., Shapiro, J., & Tribble, E. (2003). Capability Myths Demolished. EROS and Capabilities (HP Labs / Johns Hopkins APL technical report).
 
 -
