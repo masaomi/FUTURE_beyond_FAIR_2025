@@ -3,6 +3,7 @@
 Masaomi Hatakeyama  
 GenomicsChain  
 September 2, 2025
+DOI: 10.5281/zenodo.17034370
 
 ---
 
