@@ -9,15 +9,15 @@ DOI: 10.5281/zenodo.17034370
 
 ## Abstract
 
-Open science and data-sharing initiatives in genomics have achieved tremendous gains in collaboration and reproducibility, guided by FAIR data management [1](#references). Yet practical gaps persist: pipelines are separated from data, invisible maintenance work goes uncredited, and interfaces remain cumbersome for researchers and machines. We propose FUTURE—a design philosophy for next-generation platforms—standing for FAIR-based, User-first, Transparent, Unified, Reproducible, Evolvable. This revision emphasizes Evolvable as accountable co-evolution between humans and AI agents: agent actions are linked to a responsible human, governed by least-authority capability tokens [12](#references), surfaced in an auditable action timeline, and recognized alongside human work. We outline how FUTURE integrates data, code, and governance to deliver immediate reproducibility, reward invisible labor (e.g., through non-transferable Proof of Contribution attestations), and prepare for AI-assisted research.
+Open science and data-sharing initiatives in genomics have achieved tremendous gains in collaboration and reproducibility, guided by FAIR data management [1](#references). Yet practical gaps persist: pipelines are separated from data, invisible maintenance work goes uncredited, and interfaces remain cumbersome for researchers and machines. We propose FUTURE, a design philosophy for next-generation platforms, standing for FAIR-based, User-first, Transparent, Unified, Reproducible, Evolvable. This revision emphasizes Evolvable as accountable co-evolution between humans and AI agents: agent actions are linked to a responsible human, governed by least-authority capability tokens [12](#references), surfaced in an auditable action timeline, and recognized alongside human work. We outline how FUTURE integrates data, code, and governance to deliver immediate reproducibility, reward invisible labor (e.g., through non-transferable Proof of Contribution attestations), and prepare for AI-assisted research.
 
 ---
 
 ## Introduction
 
-Modern genomics thrives on open culture—open data, open-source software, preprints, and collaborative workflows. FAIR has improved findability, access, interoperability, and reuse [1](#references); however, reproducibility still falters when code, parameters, and environments are not packaged with data. Invisible labor—debugging, dependency updates, documentation, curation, operations—remains undervalued [10](#references). Usability frictions in key repositories further slow reuse. Meanwhile, research practice is shifting toward AI-assisted and, soon, agent-mediated workflows. Most infrastructures are not ready to tie agent actions back to a responsible human or to credit AI-mediated contributions without weakening accountability [11](#references).
+Modern genomics thrives on open culture, open data, open-source software, preprints, and collaborative workflows. FAIR has improved findability, access, interoperability, and reuse [1](#references); however, reproducibility still falters when code, parameters, and environments are not packaged with data. Invisible labor, debugging, dependency updates, documentation, curation, operations, remains undervalued [10](#references). Usability frictions in key repositories further slow reuse. Meanwhile, research practice is shifting toward AI-assisted and, soon, agent-mediated workflows. Most infrastructures are not ready to tie agent actions back to a responsible human or to credit AI-mediated contributions without weakening accountability [11](#references).
 
-We introduce FUTURE to address these gaps. The six principles—FAIR-based, User-first, Transparent, Unified, Reproducible, Evolvable—guide the architecture of GenomicsChain and similar platforms. This revision strengthens the Evolvable pillar: platforms must adapt not only technically, but also in how people and AI agents learn and work together under explicit governance.
+We introduce FUTURE to address these gaps. The six principles, FAIR-based, User-first, Transparent, Unified, Reproducible, Evolvable, guide the architecture of GenomicsChain and similar platforms. This revision strengthens the Evolvable pillar: platforms must adapt not only technically, but also in how people and AI agents learn and work together under explicit governance.
 
 ---
 
@@ -27,29 +27,29 @@ We introduce FUTURE to address these gaps. The six principles—FAIR-based, User
 
 ![FUTURE framework concept](/images/FUTURE_Fig1.png "Figure 1: FUTURE framework concept")
 
-### FAIR-based — building on open standards
+### FAIR-based - building on open standards
 
-Recommit to FAIR for all digital assets—datasets and workflows—using community standards for metadata, persistent identifiers, and formats [8](#references)[9](#references). Make resources truly machine-actionable with well-documented APIs, persistent IDs, and rich metadata so both humans and agents can discover, access, and reuse them.
+Recommit to FAIR for all digital assets, datasets and workflows, using community standards for metadata, persistent identifiers, and formats [8](#references)[9](#references). Make resources truly machine-actionable with well-documented APIs, persistent IDs, and rich metadata so both humans and agents can discover, access, and reuse them.
 
-### User-first — designed for both humans and AI
+### User-first - designed for both humans and AI
 
 Serve two first-class user types: researchers and AI agents. Provide intuitive, researcher-friendly deposit/run/review workflows; in parallel expose reliable programmatic interfaces so agents can query, launch, and monitor analyses on behalf of their humans.
 
-### Transparent — visible processes and decisions
+### Transparent - visible processes and decisions
 
-Capture provenance at each step—who/what ran, versions, parameters, inputs/outputs—and keep governance decisions public [6](#references)[7](#references). Surface the historically invisible work by recording and attributing maintenance, curation, and operational contributions [10](#references). Platforms may optionally issue non-transferable Proof of Contribution attestations that appear in contributor profiles and are citable.
+Capture provenance at each step, who/what ran, versions, parameters, inputs/outputs, and keep governance decisions public [6](#references)[7](#references). Surface the historically invisible work by recording and attributing maintenance, curation, and operational contributions [10](#references). Platforms may optionally issue non-transferable Proof of Contribution attestations that appear in contributor profiles and are citable.
 
-### Unified — connected across platforms
+### Unified - connected across platforms
 
 Unify data, code, execution, and results so that a dataset is always presented with runnable pipelines (containerized) and context. Workflow managers such as Nextflow [3](#references) and Snakemake [4](#references) have shown the importance of this integration, as has the Common Workflow Language [5](#references).
 
-### Reproducible — fully replicable methods
+### Reproducible - fully replicable methods
 
 Make reproduction the default outcome: executable pipelines with preserved environments; automated checks when data/pipelines update; one-click reruns; and visible diffs when versions change. Workflow reproducibility is reinforced by containerization technologies like Docker [2](#references). Badge analyses that have been independently reproduced to incentivize rigor and reuse.
 
-### Evolvable — co-evolving with humans and AI
+### Evolvable - co-evolving with humans and AI
 
-The platform is built to evolve in accountable and sustainable ways. It introduces agent-ready controls, providing a Policy Console and least-authority capability tokens that define what an AI agent may access or do, while logging every action in an auditable timeline and linking it to a responsible human account. Recognition extends from Proof of Contribution to Proof of Coevolution (PoC²), moving beyond discrete commits to capture the quality and impact of cooperative workflows—for example, maintenance that improves rerun success, curation that enhances discovery, or agent-assisted optimization that reduces compute cost while preserving accuracy. The system relies on modular, standards-first integration, using containerized tools and explicit interfaces so that new methods or agent skills can be added without breaking past analyses. Its adaptability is reinforced by continuous evaluation, with open benchmarks over canonical datasets guiding when to retire or upgrade methods. Finally, the platform ensures regulation-aware evolution by keeping sensitive data off-chain in verifiable storage, maintaining explicit consent trails, and adapting policies as technical capabilities advance.
+The platform is built to evolve in accountable and sustainable ways. It introduces agent-ready controls, providing a Policy Console and least-authority capability tokens that define what an AI agent may access or do, while logging every action in an auditable timeline and linking it to a responsible human account. Recognition extends from Proof of Contribution to Proof of Coevolution (PoC²), moving beyond discrete commits to capture the quality and impact of cooperative workflows, for example, maintenance that improves rerun success, curation that enhances discovery, or agent-assisted optimization that reduces compute cost while preserving accuracy. The system relies on modular, standards-first integration, using containerized tools and explicit interfaces so that new methods or agent skills can be added without breaking past analyses. Its adaptability is reinforced by continuous evaluation, with open benchmarks over canonical datasets guiding when to retire or upgrade methods. Finally, the platform ensures regulation-aware evolution by keeping sensitive data off-chain in verifiable storage, maintaining explicit consent trails, and adapting policies as technical capabilities advance.
 
 ---
 
@@ -73,7 +73,7 @@ FUTURE reframes open genomics infrastructure as a living, auditable system: FAIR
 
 [3] Di Tommaso, P., et al. (2017). Nextflow enables reproducible computational workflows. *Nature Biotechnology*, 35(4), 316–319. [https://doi.org/10.1038/nbt.3820](https://doi.org/10.1038/nbt.3820)
 
-[4] Köster, J., & Rahmann, S. (2012). Snakemake—A scalable bioinformatics workflow engine. *Bioinformatics*, 28(19), 2520–2522. [https://doi.org/10.1093/bioinformatics/bts480](https://doi.org/10.1093/bioinformatics/bts480)
+[4] Köster, J., & Rahmann, S. (2012). Snakemake-A scalable bioinformatics workflow engine. *Bioinformatics*, 28(19), 2520–2522. [https://doi.org/10.1093/bioinformatics/bts480](https://doi.org/10.1093/bioinformatics/bts480)
 
 [5] Amstutz, P., et al. (2016). Common Workflow Language, v1.0. *arXiv preprint* arXiv:1608.09145.
 
