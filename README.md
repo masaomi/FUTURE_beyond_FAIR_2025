@@ -1,6 +1,6 @@
 # FUTURE²: A FAIR-based, User-First, Transparent, Unified, Reproducible, Evolvable and Ethical Framework for Genomic Open Science
 
-## A Position Paper
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18143817.svg)](https://doi.org/10.5281/zenodo.18143817)
 
 Masaomi Hatakeyama  
 GenomicsChain  
